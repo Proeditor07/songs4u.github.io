@@ -1,0 +1,316 @@
+body{
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../Img/Girl.jpg');
+		background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: poppins;
+	height: 40vh;
+	
+
+}
+#navbar{
+	background-color:; 
+	color: white;
+	padding: 2px;
+	padding-bottom: 1px;
+	position: absolute;
+	margin-left: 190px;
+min-width: 80%;
+margin-left: 20%;
+	
+
+
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	margin-left: 60px;
+	text-align: center;
+
+
+
+
+}
+
+#navbar li{
+	display: inline;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: comic sans ms;
+	padding: 0px;
+	padding-bottom: 5px;
+padding-left: 5px;
+background-color: #3399ff;
+
+
+
+
+}
+	
+#navbar a{
+	padding-right: 10px;
+	
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+
+
+}
+#button{
+	border: 2px white solid;
+	border-radius: 50px;
+
+	
+
+}
+
+#button:hover{
+	background-color:#0099ff;
+
+	}
+
+.navbar2{
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 0px;
+
+
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+}
+
+.wrapper h2{
+	padding: 0;
+	margin: 0px;
+	color: #fff;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+	font-size: 60px;
+	font-family: courier;
+}
+span:before{
+	content: '';
+	animation: animation infinite 8s;
+}
+
+@keyframes  animation{
+	0%{
+		content: 'hacker';
+}
+	20%{
+		content: 'sdasda';
+}
+
+40%{
+		content: 'sdaasd';
+}
+60%{	
+	content: '';
+}
+80%{	
+	content: 'sdasda';}
+
+
+100%{		
+	content: 'sdasd';
+}
+
+}
+
+.Latest{
+	background-color:#fff;
+	color:#333;
+	margin-bottom: px;			
+	font-family: courier;
+	font-size: 45px;
+	position:all;
+	display: block;
+	min-height: 100px;
+	margin-top: 100px;
+	
+}
+
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+	background:white;
+	overflow: auto;
+
+}
+
+.bloodshot{
+	margin:  5px;
+	
+	float: left;
+	animation-name: Upper;
+	animation-duration: 1s;
+	}
+
+#footer{
+background-color:#0099ff;
+padding: 100px;
+color: white;
+min-height: 100px;
+margin-top: 3%;
+
+}
+#footer p{
+	margin-left: 75px;
+	font-size: 20px;
+	min-height: 100px;
+margin-top: 3%;
+
+}
+
+img {
+	border-radius: 20px;
+	border: 4px solid black;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 black;
+}
+.Welcome{
+	color: #fff;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 50px;
+	font-family:comic sans ms;
+	min-height: 100px;
+	animation-name: Come;
+	animation-duration: 1s;
+	
+}
+
+img{
+
+	position: relative;
+	background-repeat: no-repeat;
+	background-color: ;
+
+
+
+}
+
+#Button{
+	border: 2px #333 solid;
+
+	padding: 2px;
+	background-color: #3399ff;
+}
+#Button:hover{
+	background-color: ;
+
+}
+a{
+	text-decoration: none;
+}
+
+#button1{
+	font-size: 40px;
+	margin-left: 375px;
+font-family:courier new;
+background-color:#333;
+color:#333;
+padding: 3px;
+padding-left: 5px;
+padding-right: 20px;
+margin-bottom: 20px;
+transition-property: border-radius;
+transition-duration: 0.6s;
+width: 25%;
+background-color:white;
+text-align: center;
+margin-left:36%;
+ 
+}
+
+#button1:hover{
+	background-color:#00ff00;
+	border-radius: 50px;
+
+
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #333;
+}
+a:active{
+	color: green;
+}
+
+#showcase{
+	animation-name: Img;
+	animation-duration: 1s;
+}
+@keyframes Img{
+	0%{margin-top: 400px;}
+	
+}
+
+@keyframes Upper{
+	0%{margin-top: 200px;}
+
+}
+
+
+@keyframes Come {
+0%{color:#3399ff ;}
+25%{color:blue }
+50%{color:yellow }
+75%{color: green}
+100%{color: red;}
+}
+img:hover{
+	background-color: ;
+	
+
+
+
+}
+
+.My{
+	margin-top: 500px;
+	margin-left: 50px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 40px;
+
+}
+.Mo {
+	font-size: 70px;
+	font-family: comic sans ms;
+	padding: 10px;
+	border-style: bold;
+	border-width: 2px;
+
+
+}
+
+#page{
+	border: 3px #3399ff solid;
+	padding:10px;
+	font-size: 30px;
+	margin-left: 400px;
+	margin-bottom: 10px;
+
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+	transition-property: border-radius;
+	transition-duration: 0.1s;
+
+
+}
